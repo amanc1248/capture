@@ -39,7 +39,11 @@ function AdminHeader() {
       )}
       <Navbar expand="lg" bg="#F2EBD1" className="the__navbar">
         <Navbar.Brand href="/" className={"navbar__brand"}>
-          juni
+          <img
+            src="https://capture.so/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogotype.6d7d7acc.svg&w=128&q=75"
+            alt="capture"
+            height="50px"
+          />
         </Navbar.Brand>
         {/* INside the navbar.collapse will be everything which will be collapsed */}
         <Navbar.Collapse

@@ -57,7 +57,7 @@ function AddUser({ setAddUser }) {
         <form action="">
           <div className="employee__add__container">
             <div className="title__and__close">
-              <div className="admin__login__title">Add tutor/learner</div>
+              <div className="admin__login__title">Add User</div>
               <div className="close__icon">
                 {!loading && <CloseIcon onClick={closeAddEmployee}></CloseIcon>}
               </div>
@@ -83,7 +83,7 @@ function AddUser({ setAddUser }) {
               <label htmlFor="email" className="admin__login__label">
                 Email<span style={{ color: "red" }}>*</span>
                 <span style={{ color: "grey", fontSize: "10px" }}>
-                  Email of your tutor/learner
+                  Email of your user
                 </span>
               </label>
               <br />
@@ -108,7 +108,7 @@ function AddUser({ setAddUser }) {
                       onClick={addUserHandler}
                       disabled={addUser === "success" && true}
                     >
-                      Add tutor/learner
+                      Add user
                     </button>
                     <br />
                     {/* <span style={{ color: "grey", fontSize: "10px" }}>

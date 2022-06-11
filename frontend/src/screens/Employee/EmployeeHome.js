@@ -39,7 +39,7 @@ function EmployeeHome() {
                 alt="share nft to users"
                 className="employee__home__share__image"
               />
-              <h3>Share updates to your tutors/learners</h3>
+              <h3>Share updates to your capture users</h3>
               <h6>Send updates directly from the app via mail.</h6>
             </div>
             <div className="users__container col-lg-6 col-md-12 col-sm-12">
